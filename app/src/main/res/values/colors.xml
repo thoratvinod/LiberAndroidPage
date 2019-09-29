@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2c94c2</color>
+    <color name="colorPrimaryDark">#398baf</color>
+    <color name="colorAccent">#dab11d</color>
+    <color name="red">#fa6b6b</color>
+    <color name="green">#00c907</color>
+    <color name="Gred">#db3236</color>
+    <color name="Ggreen">#3cba54</color>
+    <color name="hintSearch">#b3e7fd</color>
+    <color name="white">#ffffff</color>
+    <color name="color_preloader_start">#000000</color>
+    <color name="color_preloader_center">#000000</color>
+    <color name="color_preloader_end">#ff56a9c7</color>
+    <color name="google_green">#3cba54</color>
+    <color name="dark_green">#35af4c</color>
+    <color name="google_blue">#4885ed</color>
+    <color name="upper_btn">#9e99f4</color>
+    <color name="font_color">#333945</color>
+    <color name="grey">#fcfbfb</color>
+    <color name="icon_color">#758AA2</color>
+
+</resources>
+<!--<color name="colorPrimaryDark">#267294</color>
+<color name="colorPrimary">#3687ab</color>-->

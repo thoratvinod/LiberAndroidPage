@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/updateLayout"
+    android:layout_height="match_parent"
+    tools:context=".UpdateProfile">
+
+    <ProgressBar
+        android:id="@+id/progressBarInUpdateForActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:visibility="visible" />
+
+    <ProgressBar
+        android:id="@+id/progressBarInUpdateForProfile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="152dp"
+        android:visibility="gone" />
+
+    <ScrollView
+        android:id="@+id/scrollInUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:padding="8dp"
+        android:scrollbars="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:orientation="vertical">
+
+
+            <Button
+                android:id="@+id/btnUpdate"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/buttonstyle_for_update"
+                android:text="Update Profile"
+                android:textColor="#fff"
+                android:visibility="visible" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/profileImage"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="25dp"
+                android:src="@drawable/avatar"
+                android:visibility="visible"/>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/textInputUser"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/editUser"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0dp"
+                    android:enabled="false"
+                    android:fontFamily="@font/roboto_light"
+                    android:hint="@string/your_name"
+                    android:inputType="textPersonName"
+                    android:padding="15dp"
+                    android:textColor="#000000" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="0dp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:padding="15dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="16dp"
+                    android:fontFamily="@font/roboto_light"
+                    android:text="Gender"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" />
+
+                <RadioButton
+                    android:id="@+id/male"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="16dp"
+                    android:enabled="false"
+                    android:onClick="onRadioButtonClicked"
+                    android:text="@string/male"
+                    android:textColor="#000000" />
+
+                <RadioButton
+                    android:id="@+id/female"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:enabled="false"
+                    android:onClick="onRadioButtonClicked"
+                    android:text="@string/female"
+                    android:textColor="#000000" />
+            </RadioGroup>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/textInputEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/editEmail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="0dp"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginRight="0dp"
+                    android:layout_marginTop="0dp"
+                    android:enabled="false"
+                    android:fontFamily="@font/roboto_light"
+                    android:hint="Email"
+                    android:inputType="textEmailAddress"
+                    android:padding="15dp"
+                    android:textColor="#000000" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <TextView
+                android:id="@+id/textViewEmailVerify"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="0dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginRight="0dp"
+                android:layout_marginTop="0dp"
+                android:fontFamily="@font/roboto_medium"
+                android:padding="15dp"
+                android:text="Email is not verified"
+                android:textColor="@color/Gred" />
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/textInputCollege"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/editCollege"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0dp"
+                    android:enabled="false"
+                    android:fontFamily="@font/roboto_light"
+                    android:hint="@string/college_name"
+                    android:inputType="textPersonName"
+                    android:padding="15dp"
+                    android:textColor="#000000" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/textInputAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/editAddress"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0dp"
+                    android:enabled="false"
+                    android:fontFamily="@font/roboto_light"
+                    android:hint="@string/your_address"
+                    android:inputType="textPostalAddress"
+                    android:padding="15dp"
+                    android:textColor="#000000" />
+
+            </android.support.design.widget.TextInputLayout>
+
+
+            <Button
+                android:id="@+id/btnSaveInfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="50dp"
+                android:layout_marginTop="50dp"
+                android:background="@color/colorPrimary"
+                android:elevation="10dp"
+                android:enabled="false"
+                android:fontFamily="@font/roboto_medium"
+                android:padding="10dp"
+                android:shadowColor="@color/colorPrimaryDark"
+                android:text="Save Information"
+                android:textColor="#fff" />
+
+
+            <Button
+                android:id="@+id/btnProceed"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                android:layout_gravity="center"
+                android:layout_marginBottom="200dp"
+                android:background="@drawable/buttonstyle_for_update"
+                android:fontFamily="@font/roboto_medium"
+                android:text="Proceed"
+                android:textColor="#fff" />
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+
+
+</RelativeLayout>

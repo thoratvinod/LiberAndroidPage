@@ -1,0 +1,38 @@
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:background="?attr/colorPrimary"
+    app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+    app:titleTextColor="#FFFFFF"
+    app:layout_scrollFlags="scroll|enterAlways"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/media_image"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:adjustViewBounds="true"
+            android:layout_gravity="center"
+            android:contentDescription="new post image"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/toolbar_logo"
+            android:visibility="visible" />
+        <TextView
+            android:id="@+id/toolbar_subtitle"
+            android:textSize="25sp"
+            android:layout_gravity="center"
+            android:textColor="#ffffff"
+            android:text="liber"
+            android:layout_marginLeft="5dp"
+            android:fontFamily="@font/comfortaa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</android.support.v7.widget.Toolbar>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true"
+    tools:context=".MainActivity">
+
+
+    <ProgressBar
+        android:id="@+id/progressBarInLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="120dp"
+        android:visibility="gone" />
+
+    <EditText
+        android:id="@+id/editPhone"
+        android:layout_width="302dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/editOTP"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/buttonstyle_edit_text"
+        android:ems="10"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:hint="@string/mobile_no"
+        android:inputType="phone"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff" />
+
+    <Button
+        android:id="@+id/btnVerification"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/btnOTP"
+        android:background="@drawable/buttonstyle"
+        android:textColor="#ffffff"
+        android:layout_centerHorizontal="true"
+        android:text="@string/send_otp" />
+
+    <EditText
+        android:id="@+id/editOTP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="193dp"
+        android:background="@drawable/buttonstyle_edit_text"
+        android:ems="10"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:hint="@string/enter_otp"
+        android:inputType="numberDecimal"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/btnOTP"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="@string/verify"
+        android:textColor="#ffffff"
+        android:background="@drawable/buttonstyle"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/resend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="77dp"
+        android:text="@string/resend_otp"
+        android:textSize="18sp"
+        android:textColor="#F3B63A"
+        android:visibility="invisible"
+        />
+
+    <TextView
+        android:id="@+id/goBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="28dp"
+        android:text="@string/edit_mobile_number"
+        android:textSize="18sp"
+        android:textColor="@color/Ggreen"
+        android:visibility="invisible" />
+
+</RelativeLayout>

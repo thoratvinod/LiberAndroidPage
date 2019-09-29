@@ -1,0 +1,319 @@
+{
+  "project_info": {
+    "project_number": "201998880712",
+    "firebase_url": "https://abcfirebaseproject-eb4c0.firebaseio.com",
+    "project_id": "abcfirebaseproject-eb4c0",
+    "storage_bucket": "abcfirebaseproject-eb4c0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:201998880712:android:6e2c3d5fb756ec12",
+        "android_client_info": {
+          "package_name": "com.example.mauli.abc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "201998880712-88r8a99buolpq3j8magnd2q2d1pturqm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mauli.abc",
+            "certificate_hash": "e71324ef3fa006311276551959732d4bcee0a005"
+          }
+        },
+        {
+          "client_id": "201998880712-gii47eko7gq0fa5rbldmu7tg0jn585qk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAWJ52d2SS4vfTl_558Vib3ZchjRyu-ew"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "201998880712-gii47eko7gq0fa5rbldmu7tg0jn585qk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:201998880712:android:bfb834ea9fa15d71",
+        "android_client_info": {
+          "package_name": "com.example.mauli.androidhomepage"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "201998880712-8d9pqkf5vn75gi36hd48uaqtji70q0it.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mauli.androidhomepage",
+            "certificate_hash": "e71324ef3fa006311276551959732d4bcee0a005"
+          }
+        },
+        {
+          "client_id": "201998880712-gii47eko7gq0fa5rbldmu7tg0jn585qk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAWJ52d2SS4vfTl_558Vib3ZchjRyu-ew"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "201998880712-gii47eko7gq0fa5rbldmu7tg0jn585qk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:201998880712:android:8e376f0602bdad5c",
+        "android_client_info": {
+          "package_name": "com.example.mauli.authliber"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "201998880712-4qe2otovf5iidromh9gd12ui93jfh5qu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mauli.authliber",
+            "certificate_hash": "e71324ef3fa006311276551959732d4bcee0a005"
+          }
+        },
+        {
+          "client_id": "201998880712-gii47eko7gq0fa5rbldmu7tg0jn585qk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAWJ52d2SS4vfTl_558Vib3ZchjRyu-ew"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "201998880712-gii47eko7gq0fa5rbldmu7tg0jn585qk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:201998880712:android:d0ddae81e637c4dc",
+        "android_client_info": {
+          "package_name": "com.example.mauli.iiber1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "201998880712-3e6l6pl589mk32bti71okj7kvr77urm9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mauli.iiber1",
+            "certificate_hash": "e71324ef3fa006311276551959732d4bcee0a005"
+          }
+        },
+        {
+          "client_id": "201998880712-gii47eko7gq0fa5rbldmu7tg0jn585qk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAWJ52d2SS4vfTl_558Vib3ZchjRyu-ew"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "201998880712-gii47eko7gq0fa5rbldmu7tg0jn585qk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:201998880712:android:f1ef9c5de213ca43",
+        "android_client_info": {
+          "package_name": "com.example.mauli.liber"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "201998880712-89jdha0g381h85gnl9nv1gjkmtonmptq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mauli.liber",
+            "certificate_hash": "e71324ef3fa006311276551959732d4bcee0a005"
+          }
+        },
+        {
+          "client_id": "201998880712-gii47eko7gq0fa5rbldmu7tg0jn585qk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAWJ52d2SS4vfTl_558Vib3ZchjRyu-ew"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "201998880712-gii47eko7gq0fa5rbldmu7tg0jn585qk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:201998880712:android:43426b485b473073",
+        "android_client_info": {
+          "package_name": "com.example.mauli.liber1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "201998880712-329m27t508nu9k8ehu0a1g0okkjsfpbi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mauli.liber1",
+            "certificate_hash": "e71324ef3fa006311276551959732d4bcee0a005"
+          }
+        },
+        {
+          "client_id": "201998880712-gii47eko7gq0fa5rbldmu7tg0jn585qk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAWJ52d2SS4vfTl_558Vib3ZchjRyu-ew"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "201998880712-gii47eko7gq0fa5rbldmu7tg0jn585qk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:201998880712:android:c23e1a864aa14b0c",
+        "android_client_info": {
+          "package_name": "com.example.mauli.liberrealtimedatabase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "201998880712-eapod2an7r9om4ili75f7a60gd6ls41l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mauli.liberrealtimedatabase",
+            "certificate_hash": "e71324ef3fa006311276551959732d4bcee0a005"
+          }
+        },
+        {
+          "client_id": "201998880712-gii47eko7gq0fa5rbldmu7tg0jn585qk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAWJ52d2SS4vfTl_558Vib3ZchjRyu-ew"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "201998880712-gii47eko7gq0fa5rbldmu7tg0jn585qk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
